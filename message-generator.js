@@ -3,3 +3,7 @@ const lessonArray = ['If you get your priorities right, you\'ll be happier!', 'M
 
 const olderGeneration = [[Hanna, 86], [Mike, 90], [Paul, 88], [Jen, 77], [Liam, 79]]; 
 
+const randomizePerson = genArray => {
+    const randomNum = Math.floor(Math.random * 5);
+    return `${olderGeneration[randomNum][0]}, aged ${olderGeneration[randomNum][1]}, gives this advice:`
+};
