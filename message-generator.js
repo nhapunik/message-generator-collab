@@ -8,6 +8,12 @@ const randomizePerson = () => {
     return `${olderGeneration[randomNum][0]}, aged ${olderGeneration[randomNum][1]}, gives this advice:`
 };
 
+
+const adviceArray = ['Draw inspiration from all the people you meet.', 'Find mentors who can guide you and challenge you.', 'Make most of less.', 'lead your life.','Be more thankful and less self-centered.']
+const randomAdvice = () => {
+    const randomNum2 = Math.floor(Math.random * 5);
+    return adviceArray[randomNum2];
+}
 const randomizeLesson = () => {
     const randomNum = Math.floor(Math.random * 5);
     return lessonArray[randomNum];
