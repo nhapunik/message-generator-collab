@@ -1,8 +1,15 @@
 const olderGeneration = [['Hanna', 86], ['Mike', 90], ['Paul', 88], ['Jen', 77], ['Liam', 79]];
 
-const adviceArray = ['draw inspiration from all the people you meet.', 'find mentors who can guide you and challenge you.', 'make most of less.', 'lead your life.','be more thankful and less self-centered.'];
+const adviceArray = ['draw inspiration from all the people you meet.', 
+'find mentors who can guide you and challenge you.', 
+'make most of less.', 
+'lead your life.','be more thankful and less self-centered.'];
 
-const lessonArray = ['if you get your priorities right, you\'ll be happier!', 'make decisions, nobody can make them for you.', 'peace of mind is more important than any material possesions could ever be.', 'never choke a hammer, always hold it by the end of the handle.', 'baby, be a simple kind of man...'];
+const lessonArray = ['if you get your priorities right, you\'ll be happier!', 
+'make decisions, nobody can make them for you.', 
+'peace of mind is more important than any material possesions could ever be.', 
+'never choke a hammer, always hold it by the end of the handle.', 
+'baby, be a simple kind of man...'];
 
 const randomizePerson = () => {
     const randomNum = Math.floor(Math.random() * 5);
